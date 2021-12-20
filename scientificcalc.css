@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: radial-gradient(circle at 50% 50%, #ff8846, #f66f4a,
+	                                #d23456, #910061, #490060, #1f005c);
+
+}
+.container{
+	width: 28%;
+	height: 65vh;
+	padding: 8px;
+	border-radius: 8px;
+	box-shadow: 12px 12px 20px black,
+	            -12px -12px 20px black;
+
+
+}
+.main #inp{
+	width: 98%;
+	height: 45px;
+	font-size: 20px;
+	padding: 1.2rem;
+	text-align: right;
+	border-radius: 6px;
+	background: #ecf0f3;
+	box-shadow: inset 8px 8px 8px black,
+	            inset -8px -8px 8px dodgerblue;
+
+}
+.btns{
+	width: 100%;
+	margin-top: 1.3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 1rem;
+}
+.btns .row-1 button{
+    cursor: pointer;
+	width: 43px;
+	height: 30px;
+	margin-top: 1rem;
+	box-shadow: inset 8px 8px 8px grey,
+	            inset -5px -5px 8px white;
+     border-radius: 6px;
+     transition: all .3s ease;
+}
+
+.btns .row-1 button:hover{
+	box-shadow: inset 8px 8px 8px black,
+	            inset -5px -5px 8px black;
+}
+#calc{
+	background:dodgerblue;
+	color: whitesmoke;
+	box-shadow: inset 5px 5px 8px red,
+	            inset -5px -5px 8px #00ace6;
+     
+}
+#ac{
+	background:blue;
+	color: whitesmoke;
+	box-shadow: inset 5px 5px 8px green,
+	            inset -5px -5px 8px #00ace6
+
+}
+#ce{
+	background:red;
+	color: whitesmoke;
+	box-shadow: inset 5px 5px 8px yellow,
+	            inset -5px -5px 8px #00ace6
+}
